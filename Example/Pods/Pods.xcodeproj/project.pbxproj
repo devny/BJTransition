@@ -40,7 +40,6 @@
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FACB1CD8CCDD7E8B4A7DF6E75003191E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C67B44F7C037A01EEC83AA3D840D17 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +103,6 @@
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A3C67B44F7C037A01EEC83AA3D840D17 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BJTransition/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A65193131DAF128BE5350AAF48E5EAAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AA1737AF1B5F12337DE3DD31ECFFFA40 /* Pods-BJTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BJTransition_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -314,7 +312,6 @@
 		BA9BD4A62F0DC447CD234F88C1E2B2AF /* BJTransition */ = {
 			isa = PBXGroup;
 			children = (
-				A3C67B44F7C037A01EEC83AA3D840D17 /* ReplaceMe.swift */,
 				D0F6A80622D7635A00388C61 /* BJTransitionController.swift */,
 				D0F6A80C22D7639300388C61 /* Transitions */,
 				8E5413AAA4090296E333358A5DA8E70C /* Pod */,
@@ -559,7 +556,6 @@
 				D0F6A80722D7635A00388C61 /* BJTransitionController.swift in Sources */,
 				D0F6A80922D7636C00388C61 /* PopGestureTransition.swift in Sources */,
 				D0F6A80B22D7638400388C61 /* DownGestureTransition.swift in Sources */,
-				FACB1CD8CCDD7E8B4A7DF6E75003191E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
