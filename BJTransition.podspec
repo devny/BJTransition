@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BJTransition'
   s.version          = '0.1.0'
-  s.summary          = 'BJTranstion can use Pop Gesture Transition and Down Gesture Transition with only one navigation. You only need to use navigation as a BJTranstionController without any special setting. Very easy.'
+  s.summary          = 'BJTranstion can use Pop Gesture Transition and Down Gesture Transition with only one navigation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'BJTranstion can use Pop Gesture Transition and Down Gesture Transition with only one navigation. You only need to use navigation as a BJTranstionController without any special setting. Very easy.'
 
   s.homepage         = 'https://github.com/devny/BJTransition'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
