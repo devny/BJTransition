@@ -1,0 +1,6 @@
+framework module BJTransition {
+  umbrella header "BJTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

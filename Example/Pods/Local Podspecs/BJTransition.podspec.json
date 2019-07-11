@@ -1,0 +1,22 @@
+{
+  "name": "BJTransition",
+  "version": "0.1.0",
+  "summary": "A short description of BJTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/devny/BJTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devny": "podo303@hanmail.net"
+  },
+  "source": {
+    "git": "https://github.com/devny/BJTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BJTransition/Classes/**/*"
+}
